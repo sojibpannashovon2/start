@@ -1,0 +1,22 @@
+body{
+    background-image: url('/images/home2.jpg');
+    background-repeat: no-repeat;
+  background-size: cover;
+
+}
+nav ul{
+    display: flex;
+}
+ li a{
+    text-decoration: none;
+    color: white;
+}
+nav li{
+    list-style: none;
+    margin-right: 20px;
+    padding: 0 5px;
+}
+nav li:hover{
+    background-color: aqua;
+  
+}
