@@ -4,7 +4,7 @@ body{
   background-size: cover;
 
 }
-nav ul{
+nav > ul{
     display: flex;
 }
  li a{
@@ -15,8 +15,20 @@ nav li{
     list-style: none;
     margin-right: 20px;
     padding: 0 5px;
+    color: blueviolet;
 }
 nav li:hover{
-    background-color: aqua;
+    background-color: rgb(108, 237, 126);
   
+}
+h1{
+    text-align: center;
+    color: white;
+    justify-items: center;
+}
+nav li .drop-down{
+    display: none;
+}
+nav li:hover .drop-down{
+    display: block;
 }

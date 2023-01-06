@@ -25,18 +25,26 @@ main{
 legend{
     color: brown;
 }
-nav ul{
+nav > ul{
     display: flex;
 }
  li a{
     text-decoration: none;
+ 
 }
 nav li{
     list-style: none;
     margin-right: 20px;
     padding: 0 5px;
+   color: blueviolet;
 }
 nav li:hover{
     background-color: aqua;
   
+}
+nav li .drop-down{
+    display: none;
+}
+nav li:hover .drop-down{
+    display: block;
 }
