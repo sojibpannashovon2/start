@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+    margin-top: 20px;
+    color: brown;
+   /* text-decoration: dashed; */
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+}
+main{
+    margin: 40px;
+    border: 2px solid aquamarine;
+    padding: 20px;
+}
