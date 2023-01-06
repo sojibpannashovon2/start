@@ -7,9 +7,21 @@ h1{
 label{
     display: block;
     margin-bottom: 10px;
+    color: aliceblue;
 }
 main{
     margin: 40px;
-    border: 2px solid aquamarine;
+    border: 2px solid rgb(242, 10, 10);
     padding: 20px;
+    background-image: url("../images/city.jpg");
+    /* background-size: contain; */
+    background-size: cover;
+    color: brown;
+    /* background-blend-mode: normal; */
+    /* background-blend-mode: multiply; */
+    background-blend-mode: difference;
+    /* opacity: 0.8; */
+}
+legend{
+    color: brown;
 }
